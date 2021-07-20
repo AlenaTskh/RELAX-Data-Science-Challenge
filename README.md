@@ -10,9 +10,6 @@ Relax Inc. makes productivity and project management software that's popular wit
 - The lowest retention rate is for users who sign up for personal projects. 
 - A chi-square confirms an association between creation_source and adopted_users with a p-value < 0.05.
 
-<img src='images/comparison-adopted-user.png' width="600">
-<img src='images/retention-graph.png' width="600">
-
 **Predictive Modeling:** 
 - Running a Random Forest Classifier with the original features returned a 0.72 test accuracy. 
 
