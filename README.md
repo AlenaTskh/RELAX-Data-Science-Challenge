@@ -26,21 +26,11 @@ Relax Inc. makes productivity and project management software that's popular wit
     - users['acct_age'] = users['acct_age'].dt.components.days
 - It has a high correlation (0.79) with adopted_user.
 
-<img src='images/correlation-table.png' width="600">
-
 **Predictive Modeling with new feature:**
 - **Random Forest Classifier test accuracy 0.96**.
 - The most important feature to predict user adoption is the engineered feature acct_age.
 - Second most important is org_id. 
 - The engineered feature significantly improved model performance.
-
-**Table 1. PRECISION RECALL**
-
-<img src='images/precision-recall.png' width="500">
-
-**Table 2. FEATURE IMPORTANCE**
-
-<img src='images/feature-importance.png' width="400">
 
 **Next steps:** 
 - Further explore org_id, perhaps apply KNN clustering algorithm to identify the natural grouping of users and create new features based on it. 
